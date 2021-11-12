@@ -2,7 +2,6 @@
 
 namespace Ping;
 
-use pocketmine\Server;
 use pocketmine\Player;
 
 use pocketmine\plugin\PluginBase;
@@ -10,12 +9,10 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-use pocketmine\event\Listener;
-
-class Main extends PluginBase implements Listener {
+class Main extends PluginBase {
     
     public function onEnable(){
-        $this->getLogger()->info("Plugin Enable By AxelFeL");
+        $this->getLogger()->info("[PP] Plugin Enabled!");
     }
     
     public function getPing(Player $player){
