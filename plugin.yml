@@ -1,0 +1,9 @@
+name: PingPlayer
+api: 3.0.0
+main: Ping\Main
+author: AxelFeL
+version: 1
+
+commands:
+  ping:
+    description: Find Out Your Ping
