@@ -26,6 +26,7 @@ class Main extends PluginBase {
                 } else {
                     $sender->sendMessage("Only Work In Game");
                 }
+            break;
         }
     return true;
     }
