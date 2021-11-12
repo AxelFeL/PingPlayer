@@ -19,14 +19,15 @@ class Main extends PluginBase {
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, String $label, array $args) : bool {
-        switch($cmd->getName()){
-            case "ping":
-                if($sender instanceof Player){
-                    $this->getPing($sender);
-                } else {
-                    $sender->sendMessage("Only Work In Game");
-                }
-        }
-    return true;
+    	switch($cmd->getName()){
+    		case "ping":
+    			if($sender instanceof Player){
+    				$this->getPing($sender);
+    			} else {
+    				$sender->sendMessage("Only Work In Game");
+    			}
+    			break;
+    	}
+    	return true;
     }
 }
