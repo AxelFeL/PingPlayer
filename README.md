@@ -1,2 +1,2 @@
 # PingPlayer
-Find Ping Of Player
+Find Out Your Currently Ping
