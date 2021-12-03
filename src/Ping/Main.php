@@ -14,7 +14,7 @@ class Main extends PluginBase {
     }
     
     public function getPing(Player $player){
-        $ping = $player->getPlayer()->getPing();
+        $ping = $player->getNetworkSession()->getPing();
         $player->sendMessage("§aYour Currently Ping Now Is : " . $ping . " ms");
     }
     
