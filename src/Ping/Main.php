@@ -9,7 +9,7 @@ use pocketmine\command\CommandSender;
 
 class Main extends PluginBase {
     
-    public function onEnable(): void {
+    public function onEnable() : void {
         $this->getLogger()->info("[PP] Plugin Enabled!");
     }
     
