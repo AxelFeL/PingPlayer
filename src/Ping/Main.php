@@ -10,7 +10,7 @@ use pocketmine\command\CommandSender;
 class Main extends PluginBase {
     
     public function onEnable() : void {
-        $this->getLogger()->info("[PP] Plugin Enabled!");
+        $this->getLogger()->info("Plugin PingPlayer Enabled By AxelFeL!");
     }
     
     public function getPing(Player $player){
